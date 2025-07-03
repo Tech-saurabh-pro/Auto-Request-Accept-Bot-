@@ -3,10 +3,10 @@ from pyrogram.types import ChatJoinRequest, Message, InlineKeyboardMarkup, Inlin
 from pyrogram.enums import ChatMemberStatus
 import asyncio, os, re, json
 
-API_ID = int(os.environ.get("API_ID", 123456))
-API_HASH = os.environ.get("API_HASH", "your_api_hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")
-OWNER_ID = int(os.environ.get("OWNER_ID", 123456789))
+API_ID = int(os.environ.get("API_ID", 17579837))
+API_HASH = os.environ.get("API_HASH", "05417aa5a7d4f7bf46bafac7e25ed69e")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7804127796:AAEKb6U6echHnMMpdtfrVTk4KR4Qcm_sCGE")
+OWNER_ID = int(os.environ.get("OWNER_ID", 7224704888))
 REQUIRED_CHANNELS = os.environ.get("REQUIRED_CHANNELS", "@channel1 @channel2").split()
 
 app = Client("AutoAcceptBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
